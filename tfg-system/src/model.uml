@@ -94,7 +94,19 @@
       <generalization xmi:id="_-YEOAEf9EeSpc8zwCNI6wA" general="_HPm_oEfAEeSpc8zwCNI6wA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_PpFgQEi2EeSpc8zwCNI6wA" name="GestorTFG"/>
-    <packagedElement xmi:type="uml:Interaction" xmi:id="_YGE6sEi2EeSpc8zwCNI6wA" name="Interaction1">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_YGE6sEi2EeSpc8zwCNI6wA" name="sd Inicio Sesion">
+      <ownedComment xmi:id="_wYAToEldEeSUdcIjDLTOgQ">
+        <body> </body>
+      </ownedComment>
+      <ownedComment xmi:id="_arXEMElhEeSUdcIjDLTOgQ">
+        <body>Interfaz</body>
+      </ownedComment>
+      <ownedComment xmi:id="_d6t8IElhEeSUdcIjDLTOgQ">
+        <body>Control</body>
+      </ownedComment>
+      <ownedComment xmi:id="_ft2tsElhEeSUdcIjDLTOgQ">
+        <body>Entidad</body>
+      </ownedComment>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7zWLAElcEeSUdcIjDLTOgQ" name="Message0Send0" covered="_N0hDsElYEeSUdcIjDLTOgQ" message="_7ypAYElcEeSUdcIjDLTOgQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7zWyEElcEeSUdcIjDLTOgQ" name="Message0Recv0" covered="_44sXwElcEeSUdcIjDLTOgQ" message="_7ypAYElcEeSUdcIjDLTOgQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A3yVQEldEeSUdcIjDLTOgQ" name="Message0Send1" covered="_44sXwElcEeSUdcIjDLTOgQ" message="_A3pLUEldEeSUdcIjDLTOgQ"/>
@@ -103,13 +115,13 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EMK3IUldEeSUdcIjDLTOgQ" name="Message0Recv2" covered="_44sXwElcEeSUdcIjDLTOgQ" message="_EMCUQEldEeSUdcIjDLTOgQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QH63cEldEeSUdcIjDLTOgQ" name="Message0Send3" covered="_44sXwElcEeSUdcIjDLTOgQ" message="_QHzisEldEeSUdcIjDLTOgQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QH63cUldEeSUdcIjDLTOgQ" name="Message0Recv3" covered="_NNj_IEldEeSUdcIjDLTOgQ" message="_QHzisEldEeSUdcIjDLTOgQ"/>
-      <lifeline xmi:id="_N0hDsElYEeSUdcIjDLTOgQ" name="UI_inicioSesion" coveredBy="_7zWLAElcEeSUdcIjDLTOgQ"/>
-      <lifeline xmi:id="_44sXwElcEeSUdcIjDLTOgQ" name="GestorUsuarios" coveredBy="_7zWyEElcEeSUdcIjDLTOgQ _A3yVQEldEeSUdcIjDLTOgQ _EMK3IEldEeSUdcIjDLTOgQ _EMK3IUldEeSUdcIjDLTOgQ _QH63cEldEeSUdcIjDLTOgQ"/>
-      <lifeline xmi:id="__TNkIElcEeSUdcIjDLTOgQ" name="Usuario" coveredBy="_A3y8UEldEeSUdcIjDLTOgQ"/>
-      <lifeline xmi:id="_NNj_IEldEeSUdcIjDLTOgQ" name="UI_Main" coveredBy="_QH63cUldEeSUdcIjDLTOgQ"/>
+      <lifeline xmi:id="_N0hDsElYEeSUdcIjDLTOgQ" name=":UI_inicioSesion" coveredBy="_7zWLAElcEeSUdcIjDLTOgQ"/>
+      <lifeline xmi:id="_44sXwElcEeSUdcIjDLTOgQ" name=":GestorUsuarios" coveredBy="_7zWyEElcEeSUdcIjDLTOgQ _A3yVQEldEeSUdcIjDLTOgQ _EMK3IEldEeSUdcIjDLTOgQ _EMK3IUldEeSUdcIjDLTOgQ _QH63cEldEeSUdcIjDLTOgQ"/>
+      <lifeline xmi:id="__TNkIElcEeSUdcIjDLTOgQ" name=":Usuario" coveredBy="_A3y8UEldEeSUdcIjDLTOgQ"/>
+      <lifeline xmi:id="_NNj_IEldEeSUdcIjDLTOgQ" name=":UI_Main" coveredBy="_QH63cUldEeSUdcIjDLTOgQ"/>
       <message xmi:id="_7ypAYElcEeSUdcIjDLTOgQ" name="1:login" receiveEvent="_7zWyEElcEeSUdcIjDLTOgQ" sendEvent="_7zWLAElcEeSUdcIjDLTOgQ"/>
       <message xmi:id="_A3pLUEldEeSUdcIjDLTOgQ" name="2:obtenerUsuarioClave" receiveEvent="_A3y8UEldEeSUdcIjDLTOgQ" sendEvent="_A3yVQEldEeSUdcIjDLTOgQ"/>
-      <message xmi:id="_EMCUQEldEeSUdcIjDLTOgQ" name="3:comprobarCredenciale" receiveEvent="_EMK3IUldEeSUdcIjDLTOgQ" sendEvent="_EMK3IEldEeSUdcIjDLTOgQ"/>
+      <message xmi:id="_EMCUQEldEeSUdcIjDLTOgQ" name="3:comprobarCredenciales" receiveEvent="_EMK3IUldEeSUdcIjDLTOgQ" sendEvent="_EMK3IEldEeSUdcIjDLTOgQ"/>
       <message xmi:id="_QHzisEldEeSUdcIjDLTOgQ" name="4:ok" receiveEvent="_QH63cUldEeSUdcIjDLTOgQ" sendEvent="_QH63cEldEeSUdcIjDLTOgQ"/>
     </packagedElement>
     <profileApplication xmi:id="_md-lcEiXEeSpc8zwCNI6wA">
