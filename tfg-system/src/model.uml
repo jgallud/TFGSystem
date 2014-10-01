@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MVC="http://Profile/schemas/MVC/_GgEikEiQEeSRN4Y0WunNiA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://Profile/schemas/MVC/_GgEikEiQEeSRN4Y0WunNiA/2 ../../EjemploProfile/model.profile.uml#_GgEikUiQEeSRN4Y0WunNiA">
+  <uml:Model xmi:id="_4tQJcEe_EeSpc8zwCNI6wA" name="model">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BrXT8EfAEeSpc8zwCNI6wA" name="Proponer TFG" subject="_d-V6MEfoEeSpc8zwCNI6wA">
+      <include xmi:type="uml:Include" xmi:id="_WlIisEfBEeSpc8zwCNI6wA" addition="_SJxKoEfBEeSpc8zwCNI6wA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Fh3EYEfAEeSpc8zwCNI6wA" name="Alumno"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HPm_oEfAEeSpc8zwCNI6wA" name="Profesor"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_L5mpkEfAEeSpc8zwCNI6wA" name="A_profesor_proponer tfg" memberEnd="_L5mpkUfAEeSpc8zwCNI6wA _L5mplEfAEeSpc8zwCNI6wA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_L5mpkUfAEeSpc8zwCNI6wA" name="profesor" type="_HPm_oEfAEeSpc8zwCNI6wA" association="_L5mpkEfAEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L5mpkkfAEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L5mpk0fAEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_L5mplEfAEeSpc8zwCNI6wA" name="proponer tfg" type="_BrXT8EfAEeSpc8zwCNI6wA" association="_L5mpkEfAEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L5mplUfAEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L5mplkfAEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_N8iKoEfAEeSpc8zwCNI6wA" name="Elegir TFG">
+      <include xmi:type="uml:Include" xmi:id="_Uc31sEfBEeSpc8zwCNI6wA" addition="_SJxKoEfBEeSpc8zwCNI6wA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_RVNWoEfAEeSpc8zwCNI6wA" name="A_alumno_elegir tfg" memberEnd="_RVNWoUfAEeSpc8zwCNI6wA _RVNWpEfAEeSpc8zwCNI6wA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RVNWoUfAEeSpc8zwCNI6wA" name="alumno" type="_Fh3EYEfAEeSpc8zwCNI6wA" association="_RVNWoEfAEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RVNWokfAEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RVNWo0fAEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RVNWpEfAEeSpc8zwCNI6wA" name="elegir tfg" type="_N8iKoEfAEeSpc8zwCNI6wA" association="_RVNWoEfAEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RVNWpUfAEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RVNWpkfAEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aG1kUEfAEeSpc8zwCNI6wA" name="Validar TFG">
+      <include xmi:type="uml:Include" xmi:id="_XoyYEEfBEeSpc8zwCNI6wA" addition="_SJxKoEfBEeSpc8zwCNI6wA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_cAAscEfAEeSpc8zwCNI6wA" name="Miembro Comision">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jQURUEfAEeSpc8zwCNI6wA" general="_HPm_oEfAEeSpc8zwCNI6wA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lBjlcEfAEeSpc8zwCNI6wA" name="A_miembro comision_validar tfg" memberEnd="_lBjlcUfAEeSpc8zwCNI6wA _lBjldEfAEeSpc8zwCNI6wA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lBjlcUfAEeSpc8zwCNI6wA" name="miembro comision" type="_cAAscEfAEeSpc8zwCNI6wA" association="_lBjlcEfAEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lBjlckfAEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lBjlc0fAEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lBjldEfAEeSpc8zwCNI6wA" name="validar tfg" type="_aG1kUEfAEeSpc8zwCNI6wA" association="_lBjlcEfAEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lBjldUfAEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lBjldkfAEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_p1encEfAEeSpc8zwCNI6wA" name="Consultar TFG">
+      <include xmi:type="uml:Include" xmi:id="_VxL9QEfBEeSpc8zwCNI6wA" addition="_SJxKoEfBEeSpc8zwCNI6wA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tZgu4EfAEeSpc8zwCNI6wA" name="A_alumno_consultar tfg" memberEnd="_tZgu4UfAEeSpc8zwCNI6wA _tZgu5EfAEeSpc8zwCNI6wA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_tZgu4UfAEeSpc8zwCNI6wA" name="alumno" type="_Fh3EYEfAEeSpc8zwCNI6wA" association="_tZgu4EfAEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tZgu4kfAEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tZgu40fAEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_tZgu5EfAEeSpc8zwCNI6wA" name="consultar tfg" type="_p1encEfAEeSpc8zwCNI6wA" association="_tZgu4EfAEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tZgu5UfAEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tZgu5kfAEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SJxKoEfBEeSpc8zwCNI6wA" name="Validar Usuario"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_q_Jv0EfBEeSpc8zwCNI6wA" name="Modificar TFG">
+      <include xmi:type="uml:Include" xmi:id="_wAEE8EfBEeSpc8zwCNI6wA" addition="_SJxKoEfBEeSpc8zwCNI6wA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_s1UnQEfBEeSpc8zwCNI6wA" name="A_profesor_modificar tfg" memberEnd="_s1UnQUfBEeSpc8zwCNI6wA _s1UnREfBEeSpc8zwCNI6wA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_s1UnQUfBEeSpc8zwCNI6wA" name="profesor" type="_HPm_oEfAEeSpc8zwCNI6wA" association="_s1UnQEfBEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s1UnQkfBEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s1UnQ0fBEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_s1UnREfBEeSpc8zwCNI6wA" name="modificar tfg" type="_q_Jv0EfBEeSpc8zwCNI6wA" association="_s1UnQEfBEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s1UnRUfBEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s1UnRkfBEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_y0xoQEfBEeSpc8zwCNI6wA" name="A_miembro comision_publicar lista tfg" memberEnd="_y0xoQUfBEeSpc8zwCNI6wA _y0xoREfBEeSpc8zwCNI6wA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_y0xoQUfBEeSpc8zwCNI6wA" name="miembro comision" type="_7qcKIEf9EeSpc8zwCNI6wA" association="_y0xoQEfBEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y0xoQkfBEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y0xoQ0fBEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_y0xoREfBEeSpc8zwCNI6wA" name="publicar lista tfg" type="_mvWHgEfBEeSpc8zwCNI6wA" association="_y0xoQEfBEeSpc8zwCNI6wA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y0xoRUfBEeSpc8zwCNI6wA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y0xoRkfBEeSpc8zwCNI6wA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mvWHgEfBEeSpc8zwCNI6wA" name="Publicar Lista TFG">
+      <include xmi:type="uml:Include" xmi:id="_88F2gEfBEeSpc8zwCNI6wA" addition="_SJxKoEfBEeSpc8zwCNI6wA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_d-V6MEfoEeSpc8zwCNI6wA" name="ProponerTFG" useCase="_BrXT8EfAEeSpc8zwCNI6wA">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_gtGD0EgGEeSpc8zwCNI6wA" annotatedElement="_d-V6MEfoEeSpc8zwCNI6wA">
+        <body>Clase interfaz</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_7qcKIEf9EeSpc8zwCNI6wA" name="Coordinador">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-YEOAEf9EeSpc8zwCNI6wA" general="_HPm_oEfAEeSpc8zwCNI6wA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PpFgQEi2EeSpc8zwCNI6wA" name="GestorTFG"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_YGE6sEi2EeSpc8zwCNI6wA" name="Interaction1"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_md-lcEiXEeSpc8zwCNI6wA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_meKLoEiXEeSpc8zwCNI6wA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../EjemploProfile/model.profile.uml#_GgEikUiQEeSRN4Y0WunNiA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../EjemploProfile/model.profile.uml#_RVAhQEiPEeSRN4Y0WunNiA"/>
+    </profileApplication>
+  </uml:Model>
+  <MVC:Boundary xmi:id="_opwggEiXEeSpc8zwCNI6wA" base_Class="_d-V6MEfoEeSpc8zwCNI6wA"/>
+  <MVC:Control xmi:id="_xjlaYEi3EeSpc8zwCNI6wA" base_Class="_PpFgQEi2EeSpc8zwCNI6wA"/>
+</xmi:XMI>
