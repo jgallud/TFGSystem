@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_UPtBkEogEeSdwvY3eCqmwA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_UPuPsEogEeSdwvY3eCqmwA" name="sd Proponer TFG">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iWMbIEogEeSdwvY3eCqmwA" name="Message0Send0" covered="_cC3b4EogEeSdwvY3eCqmwA" message="_iWBcAEogEeSdwvY3eCqmwA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iWMbIUogEeSdwvY3eCqmwA" name="Message0Recv0" covered="_gVS6YEogEeSdwvY3eCqmwA" message="_iWBcAEogEeSdwvY3eCqmwA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_no5D0EogEeSdwvY3eCqmwA" name="Message0Send1" covered="_gVS6YEogEeSdwvY3eCqmwA" message="_nowg8EogEeSdwvY3eCqmwA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_no5D0UogEeSdwvY3eCqmwA" name="Message0Recv1" covered="_l5vaYEogEeSdwvY3eCqmwA" message="_nowg8EogEeSdwvY3eCqmwA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q_1xgEogEeSdwvY3eCqmwA" name="Message0Send2" covered="_gVS6YEogEeSdwvY3eCqmwA" message="_q_sAgEogEeSdwvY3eCqmwA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q_2YkEogEeSdwvY3eCqmwA" name="Message0Recv2" covered="_gVS6YEogEeSdwvY3eCqmwA" message="_q_sAgEogEeSdwvY3eCqmwA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_t0cnIEogEeSdwvY3eCqmwA" name="Message0Send3" covered="_gVS6YEogEeSdwvY3eCqmwA" message="_t0WggEogEeSdwvY3eCqmwA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_t0dOMEogEeSdwvY3eCqmwA" name="Message0Recv3" covered="_l5vaYEogEeSdwvY3eCqmwA" message="_t0WggEogEeSdwvY3eCqmwA"/>
+    <lifeline xmi:id="_cC3b4EogEeSdwvY3eCqmwA" name=":UI_ProponerTFG" coveredBy="_iWMbIEogEeSdwvY3eCqmwA"/>
+    <lifeline xmi:id="_gVS6YEogEeSdwvY3eCqmwA" name=":GestorTFG" coveredBy="_iWMbIUogEeSdwvY3eCqmwA _no5D0EogEeSdwvY3eCqmwA _q_1xgEogEeSdwvY3eCqmwA _q_2YkEogEeSdwvY3eCqmwA _t0cnIEogEeSdwvY3eCqmwA"/>
+    <lifeline xmi:id="_l5vaYEogEeSdwvY3eCqmwA" name=":TFG" coveredBy="_no5D0UogEeSdwvY3eCqmwA _t0dOMEogEeSdwvY3eCqmwA"/>
+    <message xmi:id="_iWBcAEogEeSdwvY3eCqmwA" name="1:proponerTFG" receiveEvent="_iWMbIUogEeSdwvY3eCqmwA" sendEvent="_iWMbIEogEeSdwvY3eCqmwA"/>
+    <message xmi:id="_nowg8EogEeSdwvY3eCqmwA" name="2:nuevoTFG" receiveEvent="_no5D0UogEeSdwvY3eCqmwA" sendEvent="_no5D0EogEeSdwvY3eCqmwA"/>
+    <message xmi:id="_q_sAgEogEeSdwvY3eCqmwA" name="2:comprobarCampos" receiveEvent="_q_2YkEogEeSdwvY3eCqmwA" sendEvent="_q_1xgEogEeSdwvY3eCqmwA"/>
+    <message xmi:id="_t0WggEogEeSdwvY3eCqmwA" name="3:nuevoTFG" receiveEvent="_t0dOMEogEeSdwvY3eCqmwA" sendEvent="_t0cnIEogEeSdwvY3eCqmwA"/>
+  </packagedElement>
+</uml:Model>

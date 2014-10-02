@@ -218,6 +218,7 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_EDGpYEobEeSdwvY3eCqmwA" clientDependency="_FClJYEobEeSdwvY3eCqmwA" name="Usuarios">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_FClJYEobEeSdwvY3eCqmwA" name="trace" client="_EDGpYEobEeSdwvY3eCqmwA" supplier="_SJxKoEfBEeSpc8zwCNI6wA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:TimeObservation" xmi:id="_C8DIcEogEeSdwvY3eCqmwA" name="TimeObservation1"/>
     <profileApplication xmi:id="_md-lcEiXEeSpc8zwCNI6wA">
       <eAnnotations xmi:id="_meKLoEiXEeSpc8zwCNI6wA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="../../EjemploProfile/model.profile.uml#_GgEikUiQEeSRN4Y0WunNiA"/>
